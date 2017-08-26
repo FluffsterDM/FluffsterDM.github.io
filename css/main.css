@@ -22,6 +22,15 @@ body {
     text-decoration: none;
 }
 
+/* Change the link color on hover */
+.navbar a:hover:not(.active) {
+    background-color: #555;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
 /* Main content */
 .main {
   padding: 16px;
